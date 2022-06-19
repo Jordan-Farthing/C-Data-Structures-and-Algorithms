@@ -13,29 +13,26 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Data Strucutres">
-      <UniqueIdentifier>{9398faf6-8c19-469d-8238-f064e1a11ae3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\C++ Fundamentals">
-      <UniqueIdentifier>{7625bd62-8197-4f3a-8f23-bd007ac89597}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\C++ Fundamentals">
-      <UniqueIdentifier>{240976e1-420a-4caf-a3cf-1c89c2f46ba6}</UniqueIdentifier>
+    <Filter Include="Source Files\Recursion">
+      <UniqueIdentifier>{53499966-0aa5-4763-857e-eb0490b1f010}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C++ Data Structures and Algorithms.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Array.cpp">
-      <Filter>Source Files\C++ Fundamentals</Filter>
+    <ClCompile Include="Recursion.cpp">
+      <Filter>Source Files\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticAndGlobal.cpp">
+      <Filter>Source Files\Recursion</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Array.h">
-      <Filter>Header Files\C++ Fundamentals</Filter>
+    <ClInclude Include="DataStructuresProject.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Project.h">
+    <ClInclude Include="Recursion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
