@@ -21,10 +21,10 @@
     <ClCompile Include="C++ Data Structures and Algorithms.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Recursion.cpp">
+    <ClCompile Include="Recursion\Recursion.cpp">
       <Filter>Source Files\Recursion</Filter>
     </ClCompile>
-    <ClCompile Include="StaticAndGlobal.cpp">
+    <ClCompile Include="Recursion\StaticAndGlobal.cpp">
       <Filter>Source Files\Recursion</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,7 +32,7 @@
     <ClInclude Include="DataStructuresProject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Recursion.h">
+    <ClInclude Include="Recursion\Recursion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

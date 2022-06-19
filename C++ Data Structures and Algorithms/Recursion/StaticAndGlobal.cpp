@@ -1,4 +1,4 @@
-#include "DataStructuresProject.h"
+#include "../DataStructuresProject.h"
 
 int StaticAndGlobal(int n)
 {

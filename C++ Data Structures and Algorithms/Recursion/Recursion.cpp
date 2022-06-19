@@ -1,4 +1,4 @@
-#include "DataStructuresProject.h"
+#include "../DataStructuresProject.h"
 
 void fun(int n)
 {

@@ -141,12 +141,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C++ Data Structures and Algorithms.cpp" />
-    <ClCompile Include="Recursion.cpp" />
-    <ClCompile Include="StaticAndGlobal.cpp" />
+    <ClCompile Include="Recursion\Recursion.cpp" />
+    <ClCompile Include="Recursion\StaticAndGlobal.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructuresProject.h" />
-    <ClInclude Include="Recursion.h" />
+    <ClInclude Include="Recursion\Recursion.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
