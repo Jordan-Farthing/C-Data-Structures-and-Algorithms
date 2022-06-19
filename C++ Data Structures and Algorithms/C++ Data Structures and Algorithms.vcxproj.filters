@@ -21,11 +21,41 @@
     <ClCompile Include="C++ Data Structures and Algorithms.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Recursion\Recursion.cpp">
+    <ClCompile Include="Recursion\BasicRecursion.cpp">
       <Filter>Source Files\Recursion</Filter>
     </ClCompile>
     <ClCompile Include="Recursion\StaticAndGlobal.cpp">
       <Filter>Source Files\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion\TreeRecursion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion\IndirectRecursion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion\NestedRecursion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion\SumOfNumRecursion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion\FactorialRecursion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion\PowerRecursion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion\TaylorRecursion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion\FibonacciRecursion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion\NCRRecursion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion\TowerOfHanoi.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

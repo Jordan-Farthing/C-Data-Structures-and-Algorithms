@@ -141,8 +141,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C++ Data Structures and Algorithms.cpp" />
-    <ClCompile Include="Recursion\Recursion.cpp" />
+    <ClCompile Include="Recursion\BasicRecursion.cpp" />
+    <ClCompile Include="Recursion\FactorialRecursion.cpp" />
+    <ClCompile Include="Recursion\FibonacciRecursion.cpp" />
+    <ClCompile Include="Recursion\IndirectRecursion.cpp" />
+    <ClCompile Include="Recursion\NCRRecursion.cpp" />
+    <ClCompile Include="Recursion\NestedRecursion.cpp" />
+    <ClCompile Include="Recursion\PowerRecursion.cpp" />
     <ClCompile Include="Recursion\StaticAndGlobal.cpp" />
+    <ClCompile Include="Recursion\SumOfNumRecursion.cpp" />
+    <ClCompile Include="Recursion\TaylorRecursion.cpp" />
+    <ClCompile Include="Recursion\TowerOfHanoi.cpp" />
+    <ClCompile Include="Recursion\TreeRecursion.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructuresProject.h" />

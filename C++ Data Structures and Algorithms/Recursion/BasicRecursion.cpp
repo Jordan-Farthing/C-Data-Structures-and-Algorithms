@@ -1,11 +1,11 @@
 #include "../DataStructuresProject.h"
 
-void fun(int n)
+void BasicRecursion(int n)
 {
     if (n > 0)
     {
         printf("%d ", n);
-        fun(n - 1);
+        BasicRecursion(n - 1);
     }
 }
 

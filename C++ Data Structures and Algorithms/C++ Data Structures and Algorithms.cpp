@@ -3,12 +3,7 @@ using namespace std;
 
 int main()
 {
-    int r;
-    r = StaticAndGlobal(5);
-    printf("%d\n", r);
-
-    r = StaticAndGlobal(5);
-    printf("%d\n", r);
-    return 0;
+	TOH(3, 1, 2, 3);
+	return 0;
 }
 
