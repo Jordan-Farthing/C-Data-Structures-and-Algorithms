@@ -140,6 +140,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayADT\ArrayDynamic.cpp" />
+    <ClCompile Include="ArrayADT\MenuArrayClass.cpp" />
+    <ClCompile Include="ArrayADT\BinarySearch.cpp" />
+    <ClCompile Include="ArrayADT\Delete.cpp" />
+    <ClCompile Include="ArrayADT\functions.cpp" />
+    <ClCompile Include="ArrayADT\Insert.cpp" />
+    <ClCompile Include="ArrayADT\LinearSearch.cpp" />
+    <ClCompile Include="ArrayADT\MenuProgram.cpp" />
+    <ClCompile Include="ArrayADT\Merge.cpp" />
+    <ClCompile Include="ArrayADT\Reverse.cpp" />
+    <ClCompile Include="ArrayADT\Sorted.cpp" />
     <ClCompile Include="C++ Data Structures and Algorithms.cpp" />
     <ClCompile Include="Recursion\BasicRecursion.cpp" />
     <ClCompile Include="Recursion\FactorialRecursion.cpp" />
@@ -155,6 +166,7 @@
     <ClCompile Include="Recursion\TreeRecursion.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayADT\ArrayADT.h" />
     <ClInclude Include="DataStructuresProject.h" />
     <ClInclude Include="Recursion\Recursion.h" />
   </ItemGroup>
