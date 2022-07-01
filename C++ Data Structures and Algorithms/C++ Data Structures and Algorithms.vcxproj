@@ -116,7 +116,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -152,6 +153,13 @@
     <ClCompile Include="ArrayADT\Reverse.cpp" />
     <ClCompile Include="ArrayADT\Sorted.cpp" />
     <ClCompile Include="C++ Data Structures and Algorithms.cpp" />
+    <ClCompile Include="Matrices\DiagonalMatrixClass.cpp" />
+    <ClCompile Include="Matrices\DiagonalMatrix.cpp" />
+    <ClCompile Include="Matrices\LowerTriangularMatrix.cpp" />
+    <ClCompile Include="Matrices\LowerTriangularMatrixClass.cpp" />
+    <ClCompile Include="Matrices\Polynomial.cpp" />
+    <ClCompile Include="Matrices\SparseMatrix.cpp" />
+    <ClCompile Include="Matrices\SparseMatrixClass.cpp" />
     <ClCompile Include="Recursion\BasicRecursion.cpp" />
     <ClCompile Include="Recursion\FactorialRecursion.cpp" />
     <ClCompile Include="Recursion\FibonacciRecursion.cpp" />
@@ -168,6 +176,7 @@
   <ItemGroup>
     <ClInclude Include="ArrayADT\ArrayADT.h" />
     <ClInclude Include="DataStructuresProject.h" />
+    <ClInclude Include="Matrices\Matrices.h" />
     <ClInclude Include="Recursion\Recursion.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

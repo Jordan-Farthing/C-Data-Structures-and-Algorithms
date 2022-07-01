@@ -1,4 +1,10 @@
 #include "../DataStructuresProject.h"
+#pragma warning( push )
+#pragma warning( disable : 6011 )
+#pragma warning( push )
+#pragma warning( disable : 6385 )
+#pragma warning( push )
+#pragma warning( disable : 6386 )
 
 //int main()
 //{
@@ -239,7 +245,7 @@ ArrayClass* ArrayClass::Merge(ArrayClass arr2)
 {
 	int i, j, k;
 	i = j = k = 0;
-	struct ArrayClass* arr3 = new ArrayClass(length + arr2.length);
+	ArrayClass* arr3 = new ArrayClass(length + arr2.length);
 	if (arr3 != NULL)
 	{
 		while (i < length && j < arr2.length)
@@ -298,7 +304,7 @@ ArrayClass* ArrayClass::Intersection(ArrayClass arr2)
 {
 	int i, j, k;
 	i = j = k = 0;
-	struct ArrayClass* arr3 = new ArrayClass(length + arr2.length);
+	ArrayClass* arr3 = new ArrayClass(length + arr2.length);
 	if (arr3 != NULL)
 	{
 		while (i < length && j < arr2.length)
@@ -347,3 +353,5 @@ ArrayClass* ArrayClass::Difference(ArrayClass arr2)
 	}
 	return arr3;
 }
+
+#pragma warning( pop )
