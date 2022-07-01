@@ -7,16 +7,7 @@
 #pragma warning( disable : 6386 )
 #pragma warning( push )
 #pragma warning( disable : 6031 )
-struct Term
-{
-	int coeff;
-	int exp;
-};
-struct Poly
-{
-	int n;
-	struct Term* terms;
-};
+
 void create(struct Poly* p)
 {
 	int i;

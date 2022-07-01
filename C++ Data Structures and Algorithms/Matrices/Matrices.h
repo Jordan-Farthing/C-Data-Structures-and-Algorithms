@@ -132,3 +132,21 @@ public:
 	friend ostream& operator<<(ostream& os, SparseClass& s);
 };
 
+
+struct Term
+{
+	int coeff;
+	int exp;
+};
+struct Poly
+{
+	int n;
+	struct Term* terms;
+};
+void create(struct Poly* p);
+void display(struct Poly p);
+void display(struct Poly p);
+struct Poly* add(struct Poly* p1, struct Poly* p2);
+
+
+
