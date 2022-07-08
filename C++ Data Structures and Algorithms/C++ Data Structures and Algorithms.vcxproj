@@ -153,6 +153,20 @@
     <ClCompile Include="ArrayADT\Reverse.cpp" />
     <ClCompile Include="ArrayADT\Sorted.cpp" />
     <ClCompile Include="C++ Data Structures and Algorithms.cpp" />
+    <ClCompile Include="LinkedList\CheckLoopLinkedList.cpp" />
+    <ClCompile Include="LinkedList\CircularLinkedList.cpp" />
+    <ClCompile Include="LinkedList\ConcatenateAndMergeLinkedList.cpp" />
+    <ClCompile Include="LinkedList\CountAndSumLinkedList.cpp" />
+    <ClCompile Include="LinkedList\DeleteLinkedList.cpp" />
+    <ClCompile Include="LinkedList\DisplayLinkedList.cpp" />
+    <ClCompile Include="LinkedList\DoublyLinkedList.cpp" />
+    <ClCompile Include="LinkedList\InsertLinkedList.cpp" />
+    <ClCompile Include="LinkedList\IsSortedLinkedList.cpp" />
+    <ClCompile Include="LinkedList\LinearSearchLinkedList.cpp" />
+    <ClCompile Include="LinkedList\LinkedListClass.cpp" />
+    <ClCompile Include="LinkedList\MaxLinkedList.cpp" />
+    <ClCompile Include="LinkedList\RemoveDuplicateLinkedList.cpp" />
+    <ClCompile Include="LinkedList\ReverseLinkedList.cpp" />
     <ClCompile Include="Matrices\DiagonalMatrixClass.cpp" />
     <ClCompile Include="Matrices\DiagonalMatrix.cpp" />
     <ClCompile Include="Matrices\LowerTriangularMatrix.cpp" />
@@ -176,6 +190,7 @@
   <ItemGroup>
     <ClInclude Include="ArrayADT\ArrayADT.h" />
     <ClInclude Include="DataStructuresProject.h" />
+    <ClInclude Include="LinkedList\LinkedList.h" />
     <ClInclude Include="Matrices\Matrices.h" />
     <ClInclude Include="Recursion\Recursion.h" />
   </ItemGroup>

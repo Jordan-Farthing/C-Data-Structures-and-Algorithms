@@ -1,23 +1,12 @@
 #include "DataStructuresProject.h"
 
-using namespace std;
+extern struct DoublyLinkedNode* firstNode;
 
 int main()
 {
-	struct Poly p1, p2, * p3;
-
-	create(&p1);
-	create(&p2);
-
-	p3 = add(&p1, &p2);
-
-	printf("\n");
-	display(p1);
-	printf("\n");
-	display(p2);
-	printf("\n");
-	display(*p3);
-
-
+	int A[] = { 10,20,30,40,50};
+	DoublyLinkedListCreate(A, 5);
+	DoublyLinkedListReverse(firstNode);
+	DoublyLinkedListDisplay(firstNode);
 	return 0;
 }
