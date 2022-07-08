@@ -132,6 +132,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>../DataStructuresProject.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -152,7 +154,10 @@
     <ClCompile Include="ArrayADT\Merge.cpp" />
     <ClCompile Include="ArrayADT\Reverse.cpp" />
     <ClCompile Include="ArrayADT\Sorted.cpp" />
-    <ClCompile Include="C++ Data Structures and Algorithms.cpp" />
+    <ClCompile Include="C++ Data Structures and Algorithms.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DataStructuresProject.h</PrecompiledHeaderFile>
+    </ClCompile>
     <ClCompile Include="LinkedList\CheckLoopLinkedList.cpp" />
     <ClCompile Include="LinkedList\CircularLinkedList.cpp" />
     <ClCompile Include="LinkedList\ConcatenateAndMergeLinkedList.cpp" />
@@ -185,7 +190,9 @@
     <ClCompile Include="Recursion\SumOfNumRecursion.cpp" />
     <ClCompile Include="Recursion\TaylorRecursion.cpp" />
     <ClCompile Include="Recursion\TowerOfHanoi.cpp" />
-    <ClCompile Include="Recursion\TreeRecursion.cpp" />
+    <ClCompile Include="Recursion\TreeRecursion.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayADT\ArrayADT.h" />
