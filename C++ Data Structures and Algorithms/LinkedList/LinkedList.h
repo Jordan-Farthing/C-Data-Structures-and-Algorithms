@@ -80,3 +80,20 @@ void DoublyLinkedListInsert(struct DoublyLinkedNode* p, int index, int x);
 int DoublyLinkedListDelete(struct DoublyLinkedNode* p, int index);
 void DoublyLinkedListReverse(struct DoublyLinkedNode* p);
 
+
+struct PolyNode
+{
+	int coeff;
+	int exp;
+	struct PolyNode* next;
+};
+
+//first node of Polynomial
+extern struct PolyNode* PolyNode;
+
+void PolyLinkedListCreate();
+void PolyLinkedListDisplay(struct PolyNode* p);
+int PolyLinkedListEval(struct PolyNode* p, int x);
+
+
+

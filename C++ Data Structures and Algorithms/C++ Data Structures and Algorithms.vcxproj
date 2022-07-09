@@ -170,6 +170,7 @@
     <ClCompile Include="LinkedList\LinearSearchLinkedList.cpp" />
     <ClCompile Include="LinkedList\LinkedListClass.cpp" />
     <ClCompile Include="LinkedList\MaxLinkedList.cpp" />
+    <ClCompile Include="LinkedList\PolynomialLinkedList.cpp" />
     <ClCompile Include="LinkedList\RemoveDuplicateLinkedList.cpp" />
     <ClCompile Include="LinkedList\ReverseLinkedList.cpp" />
     <ClCompile Include="Matrices\DiagonalMatrixClass.cpp" />
@@ -193,6 +194,11 @@
     <ClCompile Include="Recursion\TreeRecursion.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Stack\ArrayStack.cpp" />
+    <ClCompile Include="Stack\InfixToPostfix.cpp" />
+    <ClCompile Include="Stack\LinkedListStack.cpp" />
+    <ClCompile Include="Stack\ParenthesisMatching.cpp" />
+    <ClCompile Include="Stack\StackClass.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayADT\ArrayADT.h" />
@@ -200,6 +206,7 @@
     <ClInclude Include="LinkedList\LinkedList.h" />
     <ClInclude Include="Matrices\Matrices.h" />
     <ClInclude Include="Recursion\Recursion.h" />
+    <ClInclude Include="Stack\Stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
