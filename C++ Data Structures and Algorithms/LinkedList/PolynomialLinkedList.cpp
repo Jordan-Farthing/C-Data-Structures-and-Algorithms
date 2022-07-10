@@ -7,6 +7,8 @@
 #pragma warning( disable : 6031 )
 #pragma warning( push )
 #pragma warning( disable : 6001 )
+#pragma warning( push )
+#pragma warning( disable : 4244 )
 
 //first node of Polynomial
 struct PolyNode* PolyNode;

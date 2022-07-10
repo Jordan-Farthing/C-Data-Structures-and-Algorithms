@@ -1,4 +1,8 @@
 #include <iostream>
+#pragma warning( push )
+#pragma warning( disable : 26495 )
+
+
 using namespace std;
 
 #pragma once
@@ -149,5 +153,4 @@ void display(struct Poly p);
 void display(struct Poly p);
 struct Poly* add(struct Poly* p1, struct Poly* p2);
 
-
-
+#pragma warning( pop )

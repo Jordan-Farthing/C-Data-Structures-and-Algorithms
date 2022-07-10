@@ -180,6 +180,12 @@
     <ClCompile Include="Matrices\Polynomial.cpp" />
     <ClCompile Include="Matrices\SparseMatrix.cpp" />
     <ClCompile Include="Matrices\SparseMatrixClass.cpp" />
+    <ClCompile Include="Queue\ArrayQueue.cpp" />
+    <ClCompile Include="Queue\CircularQueue.cpp" />
+    <ClCompile Include="Queue\DoubleEndedQueue.cpp" />
+    <ClCompile Include="Queue\LinkedListQueue.cpp" />
+    <ClCompile Include="Queue\QueueClass.cpp" />
+    <ClCompile Include="Queue\TwoStackQueue.cpp" />
     <ClCompile Include="Recursion\BasicRecursion.cpp" />
     <ClCompile Include="Recursion\FactorialRecursion.cpp" />
     <ClCompile Include="Recursion\FibonacciRecursion.cpp" />
@@ -199,14 +205,19 @@
     <ClCompile Include="Stack\LinkedListStack.cpp" />
     <ClCompile Include="Stack\ParenthesisMatching.cpp" />
     <ClCompile Include="Stack\StackClass.cpp" />
+    <ClCompile Include="Tree\BinaryTree.cpp" />
+    <ClCompile Include="Tree\BinaryTreeClass.cpp" />
+    <ClCompile Include="Tree\Tree2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayADT\ArrayADT.h" />
     <ClInclude Include="DataStructuresProject.h" />
     <ClInclude Include="LinkedList\LinkedList.h" />
     <ClInclude Include="Matrices\Matrices.h" />
+    <ClInclude Include="Queue\Queue.h" />
     <ClInclude Include="Recursion\Recursion.h" />
     <ClInclude Include="Stack\Stack.h" />
+    <ClInclude Include="Tree\Tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
